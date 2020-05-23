@@ -8,11 +8,11 @@ https过GFW，代理服务器建立TCP连接盲转发请求
 ### 前期准备工作
 
 - 一台jingwai服务器，推荐搬瓦工CN2网络，不多说
-- 一个域名，![阿里云](https://cn.aliyun.com/)
+- 一个域名，https://cn.aliyun.com/
 
 ### 开始
 1. 拷贝index.js至vps
-2. 获取证书，详情：![acme.sh](https://github.com/acmesh-official/acme.sh/wiki/%E8%AF%B4%E6%98%8E)
+2. 获取证书，详情：https://github.com/acmesh-official/acme.sh/wiki/%E8%AF%B4%E6%98%8E
 
 3. 填入预设密码，修改以下内容
 ```js

@@ -6,12 +6,12 @@ const fs = require('fs')
 
 const server = createServer()
 
-const port = 2019
+const port = 2020
 
 server.on('request', function(req, res) {
   if (req.url.startsWith('http://')) {
     const pwd = req.headers['proxy-authorization']
-    if (!(pwd && pwd === 'Basic cm9vdDo5NDEwMTNZaU4=')) {
+    if (!(pwd && pwd === 'Basic <root:pwd>')) {
       socket.write('HTTP/1.1 407 Proxy Authentication Required\r\n')
       socket.write('Proxy-Authenticate: Basic realm="err，please enter again"\r\n\r\n')
       socket.end()

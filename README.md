@@ -33,3 +33,5 @@ key: fs.readFileSync('/root/.acme.sh/域名/域名.key'),  //私钥
 cert: fs.readFileSync('/root/.acme.sh/域名/域名.ltd.cer'), //证书
 ```
 修改路径为你所申请的证书所在的路径
+
+5. `pm2 start index.js` 
